@@ -93,7 +93,7 @@ var vid = exports.vid = [{
   "startSeconds": 5 * 60 + 6,
   "endSeconds": 5 * 60 + 26,
   "suggestedQuality": "hd720",
-  "message": "2016.06.19 3rd level 3, 72.8% "
+  "message": "2016.06.19 3rd level 3, 72.8%"
 }, {
   "videoId": "s9cgFPB-lD4",
   "startSeconds": 120,
@@ -108,24 +108,22 @@ var vid = exports.vid = [{
   "message": "2015.06.13"
 }, {
   "videoId": "zymhefWTvjo",
-  "startSeconds": 6 * 60,
-  "endSeconds": 6 * 60 + 10,
+  "startSeconds": 4 * 60,
+  "endSeconds": 4 * 60 + 20,
   "suggestedQuality": "hd720",
-  "message": "2016.05.16  3rd Level Test 2 71% "
+  "message": "2016.05.16  3rd Level Test 2 71%"
 }, {
   "videoId": "v2dzXbJhz9k",
   "startSeconds": 120,
   "endSeconds": 141,
   "suggestedQuality": "hd720",
   "message": "2016.01.24"
-
 }, {
   "videoId": "HSZONtn0m8U",
   "startSeconds": 120,
   "endSeconds": 141,
   "suggestedQuality": "hd720",
   "message": "2016.05.01"
-
 }, {
   "videoId": "L18cANtPc_w",
   "startSeconds": 504,
@@ -249,7 +247,7 @@ function onPlayerStateChange(event) {
     //  console.log(vid[currVid].message);
     document.getElementById("blurb").innerHTML = _videos.vid[currVid].message;
     player.loadVideoById(_videos.vid[currVid]);
-    //    console.log("loading " + vid[currVid].videoId + " at " + vid[currVid].startSeconds + " till " + vid[currVid].endSeconds);
+    console.log("loading " + _videos.vid[currVid].videoId + " at " + _videos.vid[currVid].startSeconds + " till " + _videos.vid[currVid].endSeconds);
 
     //  player.seekTo(vid[currVid].startSeconds);
   }

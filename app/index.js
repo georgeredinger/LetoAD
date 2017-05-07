@@ -90,7 +90,7 @@ function onPlayerStateChange(event) {
     //  console.log(vid[currVid].message);
     document.getElementById("blurb").innerHTML = vid[currVid].message;
     player.loadVideoById(vid[currVid]);
-    //    console.log("loading " + vid[currVid].videoId + " at " + vid[currVid].startSeconds + " till " + vid[currVid].endSeconds);
+    console.log("loading " + vid[currVid].videoId + " at " + vid[currVid].startSeconds + " till " + vid[currVid].endSeconds);
 
     //  player.seekTo(vid[currVid].startSeconds);
   }

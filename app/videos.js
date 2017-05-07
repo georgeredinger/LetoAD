@@ -18,7 +18,7 @@ export const vid = [
     "startSeconds": 5 * 60 + 6,
     "endSeconds": 5 * 60 + 26,
     "suggestedQuality": "hd720",
-    "message": "2016.06.19 3rd level 3, 72.8% "
+    "message": "2016.06.19 3rd level 3, 72.8%"
   },
   {
     "videoId": "s9cgFPB-lD4",
@@ -36,10 +36,10 @@ export const vid = [
   },
   {
     "videoId": "zymhefWTvjo",
-    "startSeconds": 6 * 60,
-    "endSeconds": 6 * 60 + 10,
+    "startSeconds": 4 * 60,
+    "endSeconds": 4 * 60 + 20,
     "suggestedQuality": "hd720",
-    "message": "2016.05.16  3rd Level Test 2 71% "
+    "message": "2016.05.16  3rd Level Test 2 71%"
   },
   {
     "videoId": "v2dzXbJhz9k",
@@ -47,7 +47,6 @@ export const vid = [
     "endSeconds": 141,
     "suggestedQuality": "hd720",
     "message": "2016.01.24"
-
   },
   {
     "videoId": "HSZONtn0m8U",
@@ -55,7 +54,6 @@ export const vid = [
     "endSeconds": 141,
     "suggestedQuality": "hd720",
     "message": "2016.05.01"
-
   },
   {
     "videoId": "L18cANtPc_w",
