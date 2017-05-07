@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type='text/javascript' src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <article>
+        <h1>Leto <br>Redinger Dressage <br /> <span> <a href="http://redingerdressage.com" target="_blank">Gail  Redinger</a></span>
+            <br><a href="#myModal" role="button" class="btn btn-primary btn-md" data-toggle="modal">Contact</a>
+        </h1>
+        <h2><span><a href="http://centerlinescores.com/Horse/Details/1106638#filterBy=scores">Scores</a></span></h2>
+    </article>
+    <div id="blurb">
+    </div>
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+    <div id="player"> </div>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h3 id="myModalLabel">Contact Redinger Dressage</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal col-sm-12" action="http://formspree.io/george@georgeredinger.com" method="POST">
+                        <div class="form-group">
+                            <input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters."
+                                type="text" name="name">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual"
+                                data-content="Must be a valid e-mail address (user@gmail.com)" type="email" name="_replyto">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Anything for us?" data-placement="top" data-trigger="manual" style="height: 120px;"
+                                name="message"></textarea>
+                        </div>
+
+                        <input type="hidden" name="_next" value="http://leto.redingerdressage.com/thanks.html" />
+
+                        <div class="form-group">
+                            <input type="submit" value="Send" class="btn btn-success btn-lg pull-left"></input>
+                            <p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not valid. </p>
+                            <button class="btn btn-lg pull-right" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type='text/javascript' src="bundle.js"></script>
+
+</html>
