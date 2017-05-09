@@ -60,6 +60,11 @@ function onPlayerReady(event) {
   // player.playVideo();
   // player.mute();
   // resizePlayer();
+  if(vid[0]===undefined) {
+      setTimeout(onPlayerReady,100);//wait for firebase video data to come in
+      console.log("waiting for Firebase");
+      return;
+  }    
   document.getElementById("blurb").innerHTML = vid[currVid].message;
   player.loadVideoById(vid[currVid]);
   player.mute();
