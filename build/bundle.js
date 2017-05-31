@@ -139,7 +139,7 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var currVid = 0;
+var currVid = 6;
 var player;
 
 (0, _jquery2.default)("body").dblclick(function () {

@@ -2,7 +2,7 @@ import "./index.css";
 import { vid, playerDefaults } from "./videos.js";
 import $ from "jquery";
 
-var currVid = 0;
+var currVid = 6;
 var player;
 
 $("body").dblclick(function () {
